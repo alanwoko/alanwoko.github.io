@@ -10,9 +10,9 @@
 locale                   : "en-US"
 title                    : "Onyedikachi Alanwoko"
 title_separator          : "-"
-name                     : &name "Kachi"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Onyedikachi Alanwoko"
+description              : &description "Research Scientist"
+url                      : https://alanwoko.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -22,20 +22,20 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  name             : "Onyedikachi Alanwoko"
+  pronouns         : "He/Him" # example: "she/her"  
+  bio              : "Ph.D. Student, Department of Physics, University of South Florida"
   location         : "Earth"
-  employer         : "Red Brick University"
+  employer         : "University of South Florida"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "alanwoko@usf.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=gIQOYDYAAAAJ&hl=en&oi=ao"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
-  semantic         : # URL
+  orcid            : "https://orcid.org/0000-0002-0683-4095"
+  semantic         : # URL "https://www.semanticscholar.org/author/Onyedikachi-Alanwoko/2191228966"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
 
