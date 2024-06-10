@@ -13,19 +13,19 @@ title_separator          : "-"
 name                     : &name "Onyedikachi Alanwoko"
 description              : &description "Research Scientist"
 url                      : https://alanwoko.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+baseurl                  : "/com" # the subpath of your site, e.g. "/blog"
+repository               : "alanwoko/alanwoko.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "Portrait.JPG"
   name             : "Onyedikachi Alanwoko"
-  pronouns         : "He/Him" # example: "she/her"  
-  bio              : "Ph.D. Student, Department of Physics, University of South Florida"
-  location         : "Earth"
+  pronouns         : # example: "she/her"  
+  bio              : "Ph.D. Student, Department of Physics, University of South Florida."
+  location         : "Tampa, Florida"
   employer         : "University of South Florida"
   uri              : # URL
   email            : "alanwoko@usf.edu" 
@@ -36,14 +36,14 @@ author:
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-0683-4095"
   semantic         : # URL "https://www.semanticscholar.org/author/Onyedikachi-Alanwoko/2191228966"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
 
   # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
+  bitbucket        : "Kachi"# Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "alanwoko"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/onyedikachi-alanwoko/" # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -90,7 +90,7 @@ comments:
   facebook:
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "dark" # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
@@ -258,8 +258,8 @@ defaults:
       type: portfolio
     values:
       layout: single
-      author_profile: true
-      share: true
+      author_profile: false
+      share: false
       comment: true
   # _talks
   - scope:
@@ -281,7 +281,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Florida # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
