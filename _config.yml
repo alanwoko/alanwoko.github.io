@@ -40,7 +40,7 @@ author:
   researchgate     : # URL
 
   # Repositories and software development
-  bitbucket        : "Kachi"# Username - Update with your username on the site
+  bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
   github           : "alanwoko"
@@ -48,7 +48,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/onyedikachi-alanwoko/" # Username
+  linkedin         : "onyedikachi-alanwoko" # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -90,7 +90,7 @@ comments:
   facebook:
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : "dark" # "light" (default), "dark"
+    colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
